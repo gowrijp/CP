@@ -2,7 +2,7 @@
 - https://youtu.be/08QSylWv6jM
 
 ## Syntax
-- stack<int st; written stack int st like how u define vector 
+- ```stack<int> st;``` syntax 
 - st.top() will give the topmost element in the stack   
 - st.empty() is a boolean that returns true is the stack is empty  
 - st.pop() will remove the topmost element from the stack  
