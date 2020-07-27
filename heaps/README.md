@@ -17,3 +17,8 @@ set<pair<int,int>> s;
 s.insert(make_pair(x,y));
 s.find(make_pair(x,y)) == s.end()     // checking if the element is not present in the set
 ```
+### Some syntaxes of maps
+```
+unordered_map<int,int>mp;
+Deleting a key value pair from map :  mp.erase(x);  // where x is the key or first value in map pair
+```
