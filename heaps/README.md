@@ -21,4 +21,18 @@ s.find(make_pair(x,y)) == s.end()     // checking if the element is not present 
 ```
 unordered_map<int,int>mp;
 Deleting a key value pair from map :  mp.erase(x);  // where x is the key or first value in map pair
+mp.clear();                                         // clears the entire map
+map<int,int>::iterator it=mp.find(key);             //finding some key in the map
+mp.erase(it);
+```
+### Some syntaxes of list
+```
+#include<list>
+list<int> lst;      // defined just like vector but this functions like a double sided queue
+lst.clear();        // clears all values 
+lst.remove(key);    // remove the particular value from the list - rem here this is not position but the value itself
+lst.push_back(key)  // pushes at the back of the list
+lst.size()          // size of the list
+lst.pop_front();    // pops the value at the front of the list
+lst.front();        // gives value at the front of the list
 ```
