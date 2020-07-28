@@ -7,3 +7,6 @@
 - Matrix Rotation : Repeated in GS many times https://www.geeksforgeeks.org/rotate-matrix-elements/
 - Coin change : Repeated in GS test https://www.geeksforgeeks.org/coin-change-dp-7/
 
+### Do these questions if u get time 
+- https://leetcode.com/problems/wildcard-matching/
+- https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
