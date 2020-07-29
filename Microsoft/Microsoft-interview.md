@@ -60,3 +60,8 @@ Using the above statement and binary search pivot can be found.
 After the pivot is found out divide the array in two sub-arrays.
 Now the individual sub – arrays are sorted so the element can be searched using Binary Search.
 ```
+
+Pts to rem :  
+1. base case : if(high<low) return -1;
+2. If pivot = -1 then that means we did not find a pivot at all ; i.e. array is not rotated so just perform normal binary search  
+
