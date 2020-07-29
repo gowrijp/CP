@@ -12,7 +12,8 @@ https://www.youtube.com/watch?v=SsmNI3Mlp0I (from 1:56)
  ```
  For this first simply clone all the nodes in a new linked list with only the next pointers
  Now point the next pointer of all nodes in the original list to their corresponding nodes in the copy list
- Then for each node in the copy list point its red pointer to the corresponding node pointed by that red pointer in the original list
+ Then for each node in the copy list point its red pointer to the corresponding node pointed by that red pointer in the
+ original list
  Finally in the copy list point each nodes red pointer to its immediate next node 
  ```
  - Connect nodes at the same level in a binary tree  
