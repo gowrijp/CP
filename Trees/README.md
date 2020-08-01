@@ -13,6 +13,11 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 ```
+#### Questions 
+
+- Recover Binary Search Tree : https://www.interviewbit.com/problems/recover-binary-search-tree/  
+https://www.youtube.com/watch?v=wYaq3U7Mqyg  
+
 ### Getting all valued from a Binary Search tree in sorted order in a vector and deleting the nodes traversed from the tree
 ```
 // vector<int> num will have all the values from the tree in ascending order
