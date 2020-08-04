@@ -35,3 +35,25 @@ int Solution::solve(int A, int B) {
     }
     return ans;
 }
+
+
+// Alternate Solution (simple and intuitive)
+
+#include <math.h>
+#define ll long long int
+int Solution::solve(int A, int B) {
+    ll num = pow(10,A);
+    ll left=pow(10,A-1);
+    ll count=0;
+    int digit;
+    for(ll i=left;i<num;i++){
+        int sum=0;
+        while(i>0){
+            digit=i%10;
+            i=i/10;
+            sum+=digit;
+        }
+        if(sum==B) count++;
+    }
+    return count%1000000007;
+}
