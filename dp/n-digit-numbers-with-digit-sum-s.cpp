@@ -5,35 +5,33 @@ N = 2, S = 4
 Valid numbers are {22, 31, 13, 40}
 Hence output 4.*/
 
-int rec(vector<vector<int > > &dp, int id, int sum) {
-    if(sum < 0) return 0;
-    if(id == 0 && sum == 0) return 1;
-    if(id == 0) return 0;
-
-    if(dp[id][sum] != -1) return dp[id][sum];
-
-    int ans = 0;
-    for(int i = 0; i < 10; i++) {
-        ans += rec(dp,id - 1, sum - i);
-        ans %= 1000000007;
+#define m 1000000007
+int Solution::solve(int A, int B)                 // eg: A=2; B=12
+{
+    vector<vector<int>> v(A+1, vector<int>(B+1)); // v(3,13) size vector
+    
+    for(int i=0; i<=min(9,B); i++)
+        v[1][i]=1;                               // base case when number of digits = 1 and sum ranges from 0-min(B,9) the number of possibilities is 1
+        
+    for(int n=2; n<=A; n++)                      // iteration for number of digits=2 onwards
+    {
+        for(int s=0; s<=B; s++)
+        {
+            for(int d=0; d<=min(s,9); d++)       
+            {
+                if(n==A && s==B && d==0)
+                    continue;
+                v[n][s] = (v[n][s] + v[n-1][s-d])%m;        
+            }
+        }
     }
-    return dp[id][sum] = ans;
-}
-
-int Solution::solve(int A, int B) {
-    int ans = 0;
-    vector<vector<int> > dp;
-    dp.resize(A+1);
-    for(int i = 0; i < A+1; i++) {
-        dp[i].resize(B+1);
-        for(int j = 0; j < B+1; j++)
-              dp[i][j] = -1;
-    }
-    for(int i = 1; i < 10; i++) {
-        ans += rec(dp, A-1, B-i);
-        ans %= 1000000007;
-    }
-    return ans;
+    /* This is how the final v matrix looks like :
+  i/j0 1 2 3 4 5 6 7 8 9 10 11 12
+  0  0 0 0 0 0 0 0 0 0 0  0  0  0 
+  1  1 1 1 1 1 1 1 1 1 1  0  0  0
+  2  1 2 3 4 5 6 7 8 9 10 9  8  7
+    */
+    return v[A][B];
 }
 
 
