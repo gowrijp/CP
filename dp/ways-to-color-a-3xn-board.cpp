@@ -1,4 +1,6 @@
 /*
+IMP LINK :: https://medium.com/algorithm-and-datastructure/number-of-ways-to-paint-n-3-grid-170b04213d46
+
 https://www.interviewbit.com/problems/ways-to-color-a-3xn-board/
 Given a 3 x A board, find the number of ways to color it using at most 4 colors such that no 2 adjacent boxes have same color.
 Diagonal neighbors are not treated as adjacent boxes.
