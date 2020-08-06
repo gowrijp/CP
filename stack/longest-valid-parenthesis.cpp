@@ -1,6 +1,5 @@
 /*
 https://www.interviewbit.com/problems/longest-valid-parentheses/
-
 SOLUTION using stacks 
 */
 int Solution::longestValidParentheses(string A) {
