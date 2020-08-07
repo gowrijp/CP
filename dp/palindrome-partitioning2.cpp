@@ -10,7 +10,7 @@ Return the minimum cuts needed for a palindrome partitioning of A.
 using namespace std;
 
 int minCut(string A) {
-     int n = A.size();
+        int n = A.size();
         vector<int> cut(n+1, 0);  // number of cuts for the first k characters
         for (int i = 0; i <= n; i++) cut[i] = i-1;   //cut=[-1,0,1,2,3,4,5,6,7,8]
         for (int i = 0; i < n; i++) {
