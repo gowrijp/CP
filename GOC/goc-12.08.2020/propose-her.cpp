@@ -1,6 +1,8 @@
 /*
 https://www.hackerrank.com/contests/goc-cdc-series-7/challenges/propose-her
 
+SOLUTION : https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/
+
 Finding the maximum number of balanced parenthesis combinations possible given n (i.e. 2n brackets total in the string)
 for eg: given n=2 we have to find all combinations such that number of bracket pairs is 2
 answers : ()(), (()) count = 2
