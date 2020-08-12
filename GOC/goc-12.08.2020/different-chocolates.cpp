@@ -1,4 +1,6 @@
 /*
+https://www.hackerrank.com/contests/goc-cdc-series-7/challenges/different-chocolates/problem
+
 There are N different varieties of Chocolates with different levels of Milk in it. Mike loves Chocolates with greater Milk content and will try to maximize the same.
 
 There are infinte amount of chocolates of all varieties.
