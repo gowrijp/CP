@@ -1,4 +1,6 @@
 /*
+https://practice.geeksforgeeks.org/contest-problem/super-balanced-network/1/
+
 There is a computer network connected in a Binary tree-like structure. You as a network engineer want to connect any of the leaf computers with all other leaf computers with wlan wires. It is not possible to connect two leaf computer if the difference between their depth from the root is greater than 1. You need to tell your Boss whether it is possible to connect any of the leaf computers with all other leaf computers.
 
 Note that, if the network contains only one leaf computer then you don't need to connect it. That is, the output will be "YES"
