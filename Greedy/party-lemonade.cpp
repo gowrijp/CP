@@ -30,7 +30,7 @@ int main() {
     int need = L / (1 << i);
     sum += (long long) need * c[i];
     L -= need << i;
-    ans = min(ans, sum + (L > 0) * c[i]);
+    ans = min(ans, sum + (L > 0) * c[i]);  // This line basically means if L>0 then ans = min(ans,sum+c[i]) else ans = min(ans,sum)
   }
   cout << ans << endl;
   return 0;
