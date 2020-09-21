@@ -1,12 +1,12 @@
 
-Piyush RAI:  
-Aug 10 - Learning as Optimization, Linear Regression  
-Aug 12 - Learning via Probabilistic Modeling, Probabilistic Linear Regression  
-Aug 17 - Learning via Probabilistic Modeling: Logistic and Softmax Regression  
 
-Aug 19	Online Learning via Stochastic Optimization, Perceptron  
+- Learning as Optimization, Linear Regression  
+- Learning via Probabilistic Modeling, Probabilistic Linear Regression  
+- Learning via Probabilistic Modeling: Logistic and Softmax Regression  
 
-Aug 24	Learning Maximum-Margin Hyperplanes: Support Vector Machines  
+- Online Learning via Stochastic Optimization, Perceptron  
+
+- Learning Maximum-Margin Hyperplanes: Support Vector Machines  
 
 <br>
 
@@ -20,21 +20,17 @@ https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw
 -	STL (Src: Geeks for Geeks)  
 -	NPTEL Naveen Garg (Algos)  
 -	MIT 6.006  
--	Algo -2 NPTEL (Backtracking - Combinatorial Search and optimization) (Last Priority)  
+-	Algo -2 NPTEL (Backtracking - Combinatorial Search and optimization)   
 
 ### Practice : 
--	Ideone.com for IDE  
--	Hackerrank.com  
 -	https://www.interviewbit.com/   
 -	https://leetcode.com/   
--	Algo paradigms, Graph DS, DP (atleast alternate programs)  
+-	Algo paradigms, Graph DS, DP 
 
 ### Things to do : 
 -	Prepare a cheatsheets on all the topics (Maintain a good book)  
 
-
 ### Quant :   
-
 
 Preparation:  
 -	Probability Theory  
@@ -59,8 +55,6 @@ Preparation:
 -	http://www.pricederivatives.com/en/how-to-prepare-for-quantitative-finance-intervew/  
 -	Recursive Probability and Puzzles  
 -	https://www.geeksforgeeks.org/puzzles/  
-
-
 
 ### Aptitude:
 -	https://www.pariksha.co/    
@@ -88,10 +82,9 @@ Learning
 https://www.themuse.com/advice/how-to-answer-the-31-most-common-interview-questions  
 https://www.codementor.io/sheena/essential-python-interview-questions-du107ozr6  
 ### Case Interviews:
--	Heard in the street (Not Available)  
+-	Heard in the street 
 -	Case in Point   
 -	Casebooks of IIM’s   
-
 
 ### Trading:
 -	https://medium.com/auquan/a-beginners-guide-to-quantitative-trading-e6ed5d6b1c0d  
