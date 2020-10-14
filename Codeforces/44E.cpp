@@ -14,7 +14,7 @@ int main(){
         
     } 
     int n=l/k; 
-    if(n+(l%n)>b and (n+1)<=b) n=n+1;
+    while(n+(l%n)>b and (n+1)<=b) n=n+1;
     int i=0,x=0; 
     for(;x<k-1;x++){ 
         for(int j=0;j<n;j++) 
