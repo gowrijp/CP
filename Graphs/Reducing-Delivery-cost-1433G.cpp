@@ -1,5 +1,6 @@
 // https://codeforces.com/contest/1433/problem/G
 
+
 #include<bits/stdc++.h>
 using namespace std;
  
@@ -44,6 +45,7 @@ int main(){
             cin>>a>>b;
             routes.push_back({a, b});
     }
+ 
     // we remove each edge one by one and check in which case we get least total cost for all routes
     for(auto &edg: edges){
             int nw=0;
