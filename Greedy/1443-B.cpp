@@ -17,7 +17,7 @@ int main(){
    cout.tie(NULL);
    int t; cin>>t;
    while(t--){
-       int i,a,b,cnt=1e5,sum=0;
+       int i,a,b,cnt=1e5,sum=0;    // Here we initialise cnt=1e5 so that an initial string of 0s not considered.
        cin>>a>>b;
        string s;
        cin>>s;
