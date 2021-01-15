@@ -14,6 +14,12 @@ int arr[600][600]={};
 vector<int> p({4,8,15,16,23});  // declaring with values
 vector<int> a(n)  // n is size
 
+vector<int> a(n);
+for(int &x: a) cin>>x;
+
+cout<<*max_element(dp.begin(),dp.end())<<endl;    // To find max element of the vector dp
+
+
 ```
 - **Lower bound**
 ```
