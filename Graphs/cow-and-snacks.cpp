@@ -27,8 +27,8 @@ void bfs(int n)
 		for(int i=0;i<adj[n].size();i++)
 		{
 			if(vis[adj[n][i].sc])continue;
-			vis[adj[n][i].sc]=1;
-			gs[adj[n][i].ft]=1;
+			vis[adj[n][i].sc]=1;		// visited nodes
+			gs[adj[n][i].ft]=1;      	// guest satisfaction
 			q.push(adj[n][i].sc);
 		}
 	}
