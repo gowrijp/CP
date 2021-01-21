@@ -3,7 +3,9 @@
 // SOLUTION
 // Since every animal has exactly two favorite snacks, this hints that we should model the problem as a graph. The nodes are the snacks, and the edges are animals with preferences connecting snack nodes.
 // Let's consider a connected component of the graph with size greater than 1. The first animal (edge) in that component to eat must take two snacks (nodes), all other snack nodes will be eaten by exactly one animal edge. It is always possible to find an order so that no other animals takes two snacks (for example, BFS order). Thus, a connected component with c vertices can satisfy at most c−1 animals.
-// 
+// Let N be the number of snacks, M be the number of animals, and C be the number of connected components (including those of size 1). The number of satisfied animals is N−C, so the number of of unhappy animals is M−(N−C).
+
+// Complexity: O(n+m)
 
 #include<bits/stdc++.h>
 using namespace std;
