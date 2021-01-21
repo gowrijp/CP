@@ -1,5 +1,10 @@
 // https://codeforces.com/contest/1209/problem/D
 
+// SOLUTION
+// Since every animal has exactly two favorite snacks, this hints that we should model the problem as a graph. The nodes are the snacks, and the edges are animals with preferences connecting snack nodes.
+// Let's consider a connected component of the graph with size greater than 1. The first animal (edge) in that component to eat must take two snacks (nodes), all other snack nodes will be eaten by exactly one animal edge. It is always possible to find an order so that no other animals takes two snacks (for example, BFS order). Thus, a connected component with c vertices can satisfy at most c−1 animals.
+// 
+
 #include<bits/stdc++.h>
 using namespace std;
 #define pb push_back
